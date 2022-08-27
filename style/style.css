@@ -1,0 +1,81 @@
+
+
+*{
+    padding: 0;
+    margin:0rem;
+    box-sizing:border-box;
+}
+.root{
+
+}
+
+body{
+
+}
+
+a{
+    text-decoration:none;
+    color:black;
+    text-align: center;
+}
+/* _____________________________________________________ */
+
+.card{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr;
+        grid-column-gap: 0px;
+        grid-row-gap: 0px;
+        background-color: rgb(238, 235, 235);
+        max-width: 50vw;
+        max-height: 30vw;
+        margin:10vh 20vw;
+        border-radius:20px;
+        padding:5vh 2vw;
+   
+}
+
+label{
+    font-size:1vw;
+}
+
+.form input{
+    font-size:1vw;
+    padding:1vw;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    margin-bottom: 0.75vw;
+    border:none;
+
+}
+
+input[type="submit"]:hover {
+    border: 1px solid black;
+}
+
+.form{
+    display:flex;
+    flex-direction:column;
+}
+
+
+.but{
+   background-color:rgb(47, 198, 198);
+   padding: 0.75vw;
+   border:none;
+   border-radius:10px;
+   margin-top:1vw;
+   font-size:1vw;
+   max-width:7vw;
+}
+
+/* a:hover{
+    background-color:white;
+} */
+
+button:hover{
+    background-color:white;
+}
