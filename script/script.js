@@ -3,7 +3,7 @@
 
 
 
-// function NameFunction(){
+// function myFunction(){
 //     const x,text;
 //     const x=document.getElementById("name").value;
 
@@ -18,7 +18,7 @@
 //     else {  text="input No"
 // }
 
-// document.getElementById( "name").innerHTML=text;
+// document.getElementById( "demo1").innerHTML=text;
 // };
 
 // _________________________________________________________2_______________________
@@ -30,6 +30,7 @@ function myFunction(){
         text="input ok"
     }
     else {
+       
         text="input Not valid"
     }
     document.getElementById("demo1").innerHTML=text;
@@ -39,12 +40,29 @@ function myFunction(){
 // ______________________________________________________________________________________mobail
 
 
+ function myFunction(){
+     var xPhone ; textPhone
+    var xPhone= document.getElementById("phone").value;
+     if (xPhone== new RegExp("^(\\+98|0)?9\\d{9}$")){
+        textPhone= "input ok"
+     }
+    else{
+        textPhone="input NOt valid"
+    }
 
-export const check_phone = (number) => {
-    var regex = new RegExp("^(\\+98|0)?9\\d{9}$");
-    var result = regex.test(number);
-    return result;
-  };
+    document.getElementById(" demo2").innerHTML= textPhone;
+};
+
+
+
+
+
+
+// export const check_phone = (number) => {
+//     var regex = new RegExp("^(\\+98|0)?9\\d{9}$");
+//     var result = regex.test(number);
+//     return result;
+//   };
 
 
 //   __________________________________________________________________________________________code
